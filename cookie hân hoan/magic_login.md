@@ -5,8 +5,10 @@
 # Recon
 Đầu tiên khi mở challenge lên thì mình có thể thấy rằng có hai chỗ để điền username và password
 ![alt text](https://scontent.xx.fbcdn.net/v/t1.15752-9/364186693_6413974692014236_2513235090293403284_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=6w_tCgA_wkAAX_ASJFb&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRYAHDeM3LED5XGbhHdDIcr4az8vqhpzHg1ThgyJXkqnQ&oe=64F2B692)
+<br>
 Thử ctrl+U để xem mã nguồn của nó 
 ![alt text](https://scontent.xx.fbcdn.net/v/t1.15752-9/360034135_809648154002457_4970670844088211554_n.png?stp=dst-png_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_ohc=aGY-f32Lr-cAX8Ellz7&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTXe6HnTrL9Tzunk98MqckTdBYYeKwrdCb4pi7ICY9yIw&oe=64F2BC77)
+<br>
 Hừm giờ thì ta có thể hiểu đoạn code trên như sau 
 - Đầu tiên người dùng sẽ nhập vào password và username được gửi đi dưới dạng POST
 - Kiểm tra xem dữ liệu đã được chuyển đi hay chưa với hàm [isset](https://www.php.net/manual/en/function.isset.php)
