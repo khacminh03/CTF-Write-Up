@@ -24,9 +24,7 @@ Hừm, giờ thì ta có thể hiểu đoạn code trên như sau:
 - Bằng việc đọc source code, ta có thể thấy rằng phải tấn công vào biến **pas**. Để có thể tấn công vào biến **pas**, khi mà mọi ký tự ta điền vào đều bị hash bởi sha256 và việc có được một số 0 gần như là bất khả thi.
 - Nhưng ta có thể thấy họ sử dụng **==** để so sánh trong khi ở PHP có tới hai loại so sánh đó chính là === và ==. Việc sử dụng == có thể dẫn đến [php type juggling](https://viblo.asia/p/php-type-juggling-924lJPYWKPM).
 - Khái quát một chút thì khi mà sử dụng ==, PHP sẽ đưa cả hai đối tượng so sánh về cùng một loại kiểu so sánh, trong khi === sẽ chắc chắn kiểm tra cả kiểu dữ liệu và giá trị so sánh.
-- Như vậy ta có thể rút ra được, thứ nhất, ta
-
- cần phải có một giá trị mà khi bị hash bởi sha256, PHP sẽ hiểu nhầm và đưa về thành "0".
+- Như vậy ta có thể rút ra được, thứ nhất, ta cần phải có một giá trị mà khi bị hash bởi sha256, PHP sẽ hiểu nhầm và đưa về thành "0".
 - Bằng việc nhìn bảng dưới đây, bạn cũng có thể hiểu rằng ta cần tìm giá trị gì:
 
 ![PHP Type Juggling](https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/364192780_3564544020499843_7472861504372139481_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=eRiNojkZ_KQAX9I9G4i&_nc_ht=scontent.fhan5-8.fna&oh=03_AdRyYZMfNOqXKYBPpak-cpnKZHrdwnHFu_zyZDs2AGVlmQ&oe=64F2B8D3)
