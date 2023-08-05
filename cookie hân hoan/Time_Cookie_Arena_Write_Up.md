@@ -1,6 +1,7 @@
 # Time
 
 ![Task](https://scontent.fhan5-2.fna.fbcdn.net/v/t1.15752-9/364397617_1308534343368004_2757974093169274383_n.png?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=FfzZiGsFCZQAX8z9ag8&_nc_ht=scontent.fhan5-2.fna&oh=03_AdTTtOggBj1jXQjcqRMuiRiS9muJ1TLKtuZN0a0Jl0EQJw&oe=64F556A0)
+
 Chúng ta cũng được cung cấp source code để làm bài nữa mình có phân tích source code mọi người có thể xem ở [đây](https://github.com/khacminh03/CTF-Write-Up/blob/main/cookie%20h%C3%A2n%20hoan/Time_cookie_arena_code_analyze.docx)
 
 ## Recon
