@@ -19,7 +19,7 @@ Chúng ta cũng được cung cấp source code để làm bài nữa mình có 
 - Ở hàm **getTime()** biến **$time** sẽ thực thi biến command và ngay lập tức ta có thể thấy được lỗ hổng đó chính là không filter nên là ta có thể dễ dàng triển khai payload mà không lo bị filter quá nhiều
 - Nhưng làm thế nào để có thể escape được dấu ngoặc khi mà nó sẽ bị lưu dưới định dạng là **date + '$format'** sau một hồi vắt óc ra để mà nghĩ thì mình có một ý tưởng như này ta sẽ sử dụng payload như sau **date +'$format + '; os command + '**
 - Bằng việc sử dụng payload trên ta có thể chèn được os command vào trong hệ thống chẳng hạn như bạn muốn thực thi lệnh **ls** đi thì với payload trên nó sẽ thành **date + '2023-08-05'; ls''**
-- Sau khi đã có hướng đi giờ là lúc bắt đầu exploit bài này các bạn không nhất thiết phải mở Burp Suite lên mà chỉ cần dùng mỗi url là đủ rồi mình sẽ sử dụng lệnh 'cat /*flag.txt'
+- Sau khi đã có hướng đi giờ là lúc bắt đầu exploit bài này các bạn không nhất thiết phải mở Burp Suite lên mà chỉ cần dùng mỗi url là đủ rồi mình sẽ sử dụng lệnh **cat /\*flag.txt**
 
 ## Flag
 ![Flag](https://scontent.fhan5-11.fna.fbcdn.net/v/t1.15752-9/364436773_800488901755956_7236136658289762713_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=-m8OE_P1Y3MAX_QVwfT&_nc_ht=scontent.fhan5-11.fna&oh=03_AdT2DCwDRpJs0IbY2eV5qlBbq6LbTd2OrNxX-bME0t_bLg&oe=64F58FFB)
