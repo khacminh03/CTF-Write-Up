@@ -9,10 +9,10 @@ Qua việc nhìn tên đề bài mình có thể đoán được rằng bài nà
 
 - Ở ngay trang đầu tiên ta có thể thấy được rằng trang web này sẽ cho phép người dùng kiểm tra kết nối với một trang web sử dụng lệnh **ping** nhưng khi ta thử
 
-![](https://hackmd.io/_uploads/BkGAwOAj2.png)
+ ![](https://hackmd.io/_uploads/BkGAwOAj2.png)
 
 - Vậy ta có thể thấy rằng thay vì in ra output như bình thường thì nó lại in ra thông báo hệ thống đang được bảo trì và đang ngắt kết nối mạng nhưng khi ta thử những payload khác
-![](https://hackmd.io/_uploads/HkWL__Aon.png)
+ ![](https://hackmd.io/_uploads/HkWL__Aon.png)
 - Ta có thể thấy được rằng các payload không hề bị filter nên là ta có thể thoải mái thực hiện các payload khác nhau nhưng không nhìn thấy kết quả vậy ta phải làm thế nào
 - Khi mở source code lên ta có thể thấy bất kể chúng ta làm gì đi chăng nữa thì ta vẫn sẽ nhận được dòng thông báo là đang bảo trì server do biến output đã bị thay đổi khi kết thúc hàm **index()**
 ![](https://hackmd.io/_uploads/SyQpa_Rsn.png)
