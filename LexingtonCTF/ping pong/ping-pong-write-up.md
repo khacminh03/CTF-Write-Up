@@ -8,7 +8,6 @@ Qua việc nhìn tên đề bài mình có thể đoán được rằng bài nà
  ![](https://hackmd.io/_uploads/rk6ND_Rj3.png)
 
 - Ở trang chính, chúng ta có thể thấy rằng trang web cho phép người dùng kiểm tra kết nối với một trang web bằng cách sử dụng lệnh ping. Tuy nhiên, khi chúng ta thử:
-
  ![](https://hackmd.io/_uploads/BkGAwOAj2.png)
 - Vậy ta có thể thấy rằng thay vì in ra output như bình thường thì nó lại in ra thông báo hệ thống đang được bảo trì và đang ngắt kết nối mạng nhưng khi ta thử những payload khác
  ![](https://hackmd.io/_uploads/HkWL__Aon.png)
