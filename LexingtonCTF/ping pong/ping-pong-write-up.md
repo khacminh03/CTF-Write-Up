@@ -5,14 +5,14 @@ Qua việc nhìn tên đề bài mình có thể đoán được rằng bài nà
 
 # Recon
 
-![](https://hackmd.io/_uploads/rk6ND_Rj3.png)
+- ![](https://hackmd.io/_uploads/rk6ND_Rj3.png)
 
 - Ở ngay trang đầu tiên ta có thể thấy được rằng trang web này sẽ cho phép người dùng kiểm tra kết nối với một trang web sử dụng lệnh **ping** nhưng khi ta thử
 
 - ![](https://hackmd.io/_uploads/BkGAwOAj2.png)
 
 - Vậy ta có thể thấy rằng thay vì in ra output như bình thường thì nó lại in ra thông báo hệ thống đang được bảo trì và đang ngắt kết nối mạng nhưng khi ta thử những payload khác
- ![](https://hackmd.io/_uploads/HkWL__Aon.png)
+- ![](https://hackmd.io/_uploads/HkWL__Aon.png)
 - Ta có thể thấy được rằng các payload không hề bị filter nên là ta có thể thoải mái thực hiện các payload khác nhau nhưng không nhìn thấy kết quả vậy ta phải làm thế nào
 - Khi mở source code lên ta có thể thấy bất kể chúng ta làm gì đi chăng nữa thì ta vẫn sẽ nhận được dòng thông báo là đang bảo trì server do biến output đã bị thay đổi khi kết thúc hàm **index()**
 - ![](https://hackmd.io/_uploads/SyQpa_Rsn.png)
@@ -34,7 +34,7 @@ Qua việc nhìn tên đề bài mình có thể đoán được rằng bài nà
 - ![](https://hackmd.io/_uploads/HkWLfKAjn.png)
 - Ta có thể hiểu câu lệnh trên đang lấy ký tự đầu rồi so sánh với chữ "i" nếu giống nhau thì in ra 'same' nếu không thì in ra 'not same' vạy nếu như ta thay bằng sleep thì sao nếu như giống thì sleep 2 giây không giống thì không sleep
 - Vậy giờ khi đã có trong tay hướng đi sao ta không bắt đầu vào code nhỉ?
-```python=
+ ```python=
 import requests
 import time 
 
@@ -66,7 +66,7 @@ for index in range(1,50):
             print("Tìm ra kí tự thứ ", index, "là ", c, "(FLAG:",FLAG,")")
             break
 
-```
+ ```
 # Flag
-![](https://hackmd.io/_uploads/HyH2mKAoh.png)
+- ![](https://hackmd.io/_uploads/HyH2mKAoh.png)
 
