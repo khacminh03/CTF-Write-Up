@@ -5,6 +5,7 @@
 Ngay khi mở challenge lên ta có thể thấy được một trang web cực đẹp ở đây nhưng cái chúng ta cần quan tâm nhất chính là việc điền thông tin ban đầu khi mà mình thử điền các thông tin như trên rồi bấm submit thì mình được
 
 ![](https://hackmd.io/_uploads/B1t6KDU22.png)
+
 Cũng hay đấy nhưng khi mình đưa vào trong burp suite và thử kiểm tra các request thì đáng chú ý nhất là có tới 3 request dạng POST được gửi đi
 
 ![](https://hackmd.io/_uploads/r1bXcwL33.png)
