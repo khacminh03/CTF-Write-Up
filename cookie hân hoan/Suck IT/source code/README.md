@@ -1,19 +1,19 @@
 # Suck It cookie arena
 
-![]([https://hackmd.io/_uploads/ryBBMxc2n.png](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_272630f6a1b53731335c95ddaa79e9d5.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1692171102&Signature=bhyZhfv%2FsWn6x19%2FuXi%2FXUFfbhs%3D))
+![](https://scontent.fhan5-9.fna.fbcdn.net/v/t1.15752-9/367540206_311677961237860_7721780620952826739_n.png?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=o9uXmoNypNQAX8LfUfC&_nc_ht=scontent.fhan5-9.fna&oh=03_AdQ6i4fSsLt9-AASc0q5J93ZtEhXBNilc9XMcVOpg1vCow&oe=6503F519)
 
 ## Recon
 Ngay khi ta vừa vào ta có thể thấy một form để ta có thể điền tên của chúng ta vào
 
-![](https://hackmd.io/_uploads/Hyvcfg923.png)
+![](https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/363792114_627672252802539_6501206624127343003_n.png?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=1UDwrFhQVEQAX_TXPOp&_nc_ht=scontent.fhan5-8.fna&oh=03_AdTEcB_vwHRfPs_dSlVtTUxNICEoeL5BOrBUXfRXBckmqQ&oe=6503FE27)
 
 Ta có một vài user như sau
 
-![](https://hackmd.io/_uploads/HJPTGgc2n.png)
+![](https://scontent.fhan5-11.fna.fbcdn.net/v/t1.15752-9/365806637_820378313149200_4435481678668477445_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=1NGwVckr6awAX9VkkzK&_nc_ht=scontent.fhan5-11.fna&oh=03_AdTuKySnnJASqPU9anBA25sSr9fQErwmqHTlNjnr8DGDpQ&oe=6503DFCD)
 
 Dựa vào đề bài ta có thể hiểu rằng mục tiêu duy nhất của chúng ta chính là người yêu của admin mà thôi
 
-![](https://hackmd.io/_uploads/ry17Qx523.png)
+![](https://scontent.fhan5-2.fna.fbcdn.net/v/t1.15752-9/366091969_251639394376142_3094625018820747679_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=kDPNpsyqFxoAX_xFP7w&_nc_ht=scontent.fhan5-2.fna&oh=03_AdRo0AgbXX3xdHmMetag9ccEIi5QxgGhRt9D2tEFAz1DQQ&oe=6503DDEE)
 
 Vậy là ta có thể thấy được nếu như không phải admin thì ta khó mà có thể nhận được flag nhưng làm thế nào để có thể trở thành admin đây mình để ý ở những chỗ khác nữa như là cookie hay userID hoặc là sessionID của người dùng có bị để lại trên trang web hay không những thứ này có thể giúp ta giả danh admin và hỗ trợ xâm nhập bằng việc bấm F12 vào đi vào trong local storage ta có thể thấy được một thứ như sau
 
@@ -52,8 +52,5 @@ Vào trong local Storage và thay đổi sessionID của chính mình
 # Flag
 
 ![](https://scontent.fhan5-11.fna.fbcdn.net/v/t1.15752-9/366005883_865214761626560_9205414927878720230_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=9cnxxAmhh_4AX-n161g&_nc_ht=scontent.fhan5-11.fna&oh=03_AdQVgoH8dZlH-GWJ1c02OjgcUAPji4LUvrb3X0Bs2H56uA&oe=6503DB10)
-
-
-
 
 
