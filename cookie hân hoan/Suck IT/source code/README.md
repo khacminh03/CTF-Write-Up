@@ -1,6 +1,6 @@
 # Suck It cookie arena
 
-![](https://hackmd.io/_uploads/ryBBMxc2n.png)
+![]([https://hackmd.io/_uploads/ryBBMxc2n.png](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_272630f6a1b53731335c95ddaa79e9d5.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1692171102&Signature=bhyZhfv%2FsWn6x19%2FuXi%2FXUFfbhs%3D))
 
 ## Recon
 Ngay khi ta vừa vào ta có thể thấy một form để ta có thể điền tên của chúng ta vào
