@@ -1,0 +1,1 @@
+đọc write up ở [đây](https://hackmd.io/@D4rUL1eb3rt/rkbFb7aXa)
