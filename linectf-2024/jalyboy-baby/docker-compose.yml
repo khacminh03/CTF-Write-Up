@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "10000:10000"
+    environment:
+      - FLAG=${FLAG:-linectf{this_is_fake_flag}}
