@@ -1,0 +1,1 @@
+All write up is [here](https://hackmd.io/@D4rUL1eb3rt/r1lrU2j1C)
