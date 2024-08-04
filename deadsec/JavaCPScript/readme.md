@@ -1,0 +1,1 @@
+Solution in [here](https://cut-lifeboat-494.notion.site/Dead-sec-CTF-bc6a451980bc4b53bafe4d765a6aef44)
